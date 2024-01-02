@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(39, 39, 155);
+
+}
+.heading{
+    margin-top: 10%;
+    text-align: center;
+    width: 100%;height: 100%;
+   
+
+}
+h1{
+    color: rgb(133, 137, 137);
+}
+.switch{
+    display:flex;
+    justify-content: center;
+}
+
+#lightoffbtn{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-self: self-end;
+    height: 40px;
+    width: 120px;
+    border: transparent;
+    border-radius: 30px;
+  
+
+
+}
+#lightonbtn{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        align-self: self-end;
+        height: 40px;
+        width: 120px;
+        border: transparent;
+        border-radius: 30px;
+    
+    
+}
+
+.light{
+    height: 200px;
+width: 200px;
+}
+.btn:hover{
+    transition: .25s;
+    cursor: pointer;
+    border-color: aliceblue;
+   background-color: rgb(219, 215, 158);
+
+}
